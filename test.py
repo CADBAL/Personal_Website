@@ -1,4 +1,11 @@
+import pdb
+
 def test():
-    print("test")
+    t: int = 3
+    x: str = "3"
+    if (x == t):
+        print("true")
+    else:
+        print("false")
 
 test()
